@@ -351,7 +351,7 @@ hr {
 
 
 
-.marquee svg {
+.marquee img{
     display: grid;
     place-items: center;
     height: 12rem;
@@ -359,7 +359,6 @@ hr {
     fill: var(--color-text);
     background: var(--accent__blue);
     aspect-ratio: 16/9;
-    padding: calc(var(--size) / 10);
 }
 
 
