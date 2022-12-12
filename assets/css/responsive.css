@@ -224,6 +224,10 @@
         margin-top: 2rem;
         margin-left: 2rem;
     }
+    .marquee img{
+        height: 7rem !important;
+      
+    }
 }
 
 
