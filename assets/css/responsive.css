@@ -1,0 +1,243 @@
+:root {
+    --bg__dark: #000000;
+    --bg__light: #191919;
+    --font__light: #e6e1e1;
+    --accent__red: #FC5757;
+    --accent__blue: #9FBDDB;
+    --size: clamp(5rem, 1rem + 30vmin, 20rem);
+    --gap: calc(var(--size) / 8);
+    --duration: 60s;
+    --scroll-start: 0;
+    --scroll-end: calc(-100% - var(--gap));
+}
+
+
+
+@media screen and (max-width: 1200px) {
+
+    ul,
+    li {
+
+        margin-inline: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    ul,
+    li {
+
+        margin-inline: 1rem;
+    }
+
+    .header__top {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .info__contact {
+        padding-left: 0;
+    }
+
+    .footer__contact {
+        width: 80%;
+
+    }
+
+    .rs {
+        width: 20%;
+
+    }
+
+    .about p {
+
+        width: 90%;
+        text-align: justify;
+
+    }
+
+    .button_callto {
+
+        justify-content: center;
+
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .infos h1 {
+        font-size: 1.5em;
+    }
+
+
+
+    .button_callto {
+
+        padding-right: 0;
+
+    }
+
+    .pres {
+        padding: 2rem;
+    }
+
+    .padding {
+        padding-inline: 2rem;
+    }
+
+    .product {
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+
+    .container__padding {
+        padding-inline: 2rem;
+    }
+
+    .footer__contact {
+        border-right: 0px !important;
+        border-right: none;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+
+    .prev,
+    .next {
+        font-size: 15px;
+        top: 70%;
+    }
+
+    .infos h1 {
+        font-size: 1em;
+    }
+
+    .pres {
+        padding: 1rem;
+    }
+
+    .padding {
+        padding-inline: 1rem;
+    }
+
+    .product {
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+
+    .container__padding {
+        padding-inline: 1rem;
+    }
+
+
+    .cover__section {
+        margin-top: 2rem;
+    }
+
+    .code__skill {
+        padding-inline: 1rem;
+    }
+
+    .hobbie__type,
+    .tech {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    h6 {
+        text-align: center;
+        font-size: 0.8rem !important;
+    }
+
+    .info__contact p {
+        width: 90%;
+        text-align: left;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .exp {
+        margin-top: 1rem;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .exp__info {
+        margin-top: 2rem;
+        width: 100%;
+        border-bottom: 1px solid var(--font__light);
+        padding-bottom: 2rem;
+    }
+
+    .product {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+
+    .progressbar {
+        height: 12px;
+
+    }
+
+    .footer__content {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .footer__contact {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border-right: 1px solid var(--font__light);
+    }
+
+    .title__contact {
+        width: 100%;
+        height: 20%;
+        margin-bottom: 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .rs {
+        height: 15% !important;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rs__link img {
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+}
+
+
+
+@media screen and (max-width: 350px) {
+
+
+    .hobbie__type,
+    .tech {
+        width: 3rem;
+        height: 3rem;
+    }
+
+
+
+
+}
